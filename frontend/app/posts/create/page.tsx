@@ -178,24 +178,6 @@ export default function CreatePostPage() {
               {errors.content.message}
             </p>
           )}
-          <p className="mt-1 text-sm text-gray-500">
-            Supports Markdown formatting
-          </p>
-        </div>
-
-        <div className="flex items-center">
-          <input
-            id="published"
-            type="checkbox"
-            className="h-4 w-4 text-primary-600 focus:ring-primary-500 border-gray-300 rounded"
-            {...register("published")}
-          />
-          <label
-            htmlFor="published"
-            className="ml-2 block text-sm text-gray-900"
-          >
-            Publish immediately
-          </label>
         </div>
 
         <div className="flex justify-end space-x-3">
